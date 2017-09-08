@@ -1,20 +1,20 @@
-# 简介
+# 一 简介
 ## LN_PictureCarousel 是一个可以实现本地和网络图片的轮播器
 
-# 使用方法
+# 二 使用方法
 
-## 注意事项: 
-### 需要引入第三方框架 
+## 1.注意事项: 
+### 1.1需要引入第三方框架 
 
 	pod 'SDWebImage'
 	
-### 支持cocoapods 导入
+### 1.2支持cocoapods 导入
 
    	pod 'LN_PictureCarousel' , '~> 1.0.0' 
 	
-## 具体使用如下:
+## 2.具体使用如下:
 
-### 创建数组和frame
+#### 2.1创建数组和frame
 	
 ```
 
@@ -30,7 +30,7 @@
 	CGRect frame = CGRectMake(0, 0, self.view.frame.size.width, 200.f);
 ```
 	
-#### 本地图片
+#### 2.2本地图片
 
 ```
 		//类方法
@@ -45,7 +45,7 @@
 		 NSLog(@"点击了第%ld张图片",selectIndex);
 	}];
 ```
-#### 本地图片,数组为图片名字数组
+#### 2.3本地图片,数组为图片名字数组
 ```
 		//类方法
 	[LN_PictureCarousel pictureWithParent:self.view frame:frame imagesStringArray:photosMArr timeInterval:1.2 action:^(LN_PictureCarousel *pictureCarousel, NSInteger selectIndex) {
@@ -58,7 +58,7 @@
 		NSLog(@"点击了第%ld张图片",selectIndex);
 	}];
 ```	
-### 网络图片
+#### 2.4网络图片
 	
 ```
 	NSArray *photonStrs = @[
@@ -80,4 +80,4 @@
 	}];
 ```
 
-## 有bug问题可以联系: qq 123624331 ,感谢大家支持!
+# 三 有bug问题可以联系: qq 123624331 ,感谢大家支持!
