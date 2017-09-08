@@ -6,10 +6,11 @@
 ## 注意事项: 
 ### 需要引入第三方框架 
 
-	``` pod 'SDWebImage' ```
+	pod 'SDWebImage'
+	
 ### 支持cocoapods 导入
 
-   	```pod 'LN_PictureCarousel' , '~> 1.0.0' ```
+   	pod 'LN_PictureCarousel' , '~> 1.0.0' 
 	
 ## 具体使用如下:
 	
