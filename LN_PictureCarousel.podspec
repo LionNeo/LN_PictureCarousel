@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors   = { 'Lion_Neo' => '123624331@qq.com'}
   
   s.source   = { :git => 'https://github.com/LionNeo/LN_PictureCarousel.git', :tag => s.version.to_s }
-  s.source_files = 'LN_TouchIDHelper/**/*.{h,m}'
+  s.source_files = 'LN_PictureCarousel/**/*.{h,m}'
   s.frameworks = 'Foundation', 'UIKit'
   s.dependency 'SDWebImage'
   s.requires_arc = true
